@@ -1,5 +1,6 @@
 /* YaSaDog, 7.12.2022 */
 
+#include <stdio.h>
 #include <math.h>
 
 #include "C01_QUAD.h"

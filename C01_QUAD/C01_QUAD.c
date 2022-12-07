@@ -5,7 +5,7 @@
 #include "C01_QUAD.h"
 
 
-void main(void)
+int main(void)
 {
 	float a, b, c;
 	printf("C01_QUAD\nQuadratic equations solver\nax^2 + bx + c = 0\n");
@@ -23,4 +23,6 @@ void main(void)
 
 	getchar();
 	getchar();
+
+	return 0;
 }
