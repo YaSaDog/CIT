@@ -9,6 +9,8 @@ int main(void)
 {
 	float a, b, c;
 	printf("C01_QUAD\nQuadratic equations solver\nax^2 + bx + c = 0\n");
+	printf("Tests:\n");
+	UnitTest("ut.txt");
 
 	printf("a = ");
 	scanf("%f", &a);
@@ -19,10 +21,7 @@ int main(void)
 	printf("c = ");
 	scanf("%f", &c);
 
-	solveQuadratic(a, b, c);
-
-	getchar();
-	getchar();
+	solveQuadEq(a, b, c);
 
 	return 0;
 }
